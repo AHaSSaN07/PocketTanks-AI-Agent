@@ -1,8 +1,7 @@
 import numpy as np
-
 from keras.models import load_model
-
 from OpenCV import *
+
 
 #Neural network functions
 def predict(state):
