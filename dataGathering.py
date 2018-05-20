@@ -88,9 +88,10 @@ while i < np.inf:
             df.to_csv('data.csv', sep=',', index=False, header=None)
         i+=1
 
-
+'''
 ###############################################################################
 #CSV saving, must be done manually after ctrl+c'ing the program since the
 #infinite loop
 ###############################################################################
 df.to_csv('data.csv', sep=',', index=False, header=None)
+'''
